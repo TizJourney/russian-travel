@@ -1,6 +1,48 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 
-/* todo: remove before submiting project */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 28px 48px;
+}
 
+.header__logo {
+  width: 176px;
+  height: 52px;
+  justify-self: flex-start;
+}
 
+.header__lang-link-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.header__lang-link-element + .header__lang-link-element {
+  margin-left: 18px;
+}
+
+.header__lang-link {
+  text-decoration-line: underline;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.header__lang-link:visited {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 28px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 16px 16px;
+  }
+}
