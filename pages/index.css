@@ -7,3 +7,64 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content__header {
+  margin: 28px 48px 0 48px;
+}
+
+.content__lead {
+  margin:  148px 0px 148px;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lead__title {
+
+}
+
+.lead__subtitle {
+
+}
+
+.lead__image {
+
+}
+
+.lead__caption {
+
+}
+
+@media screen and (max-width: 768px) {
+  .content__header {
+    margin: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__header {
+    margin: 16px 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content__lead {
+    margin: 48px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__lead {
+    margin: 48px 0 0 0;
+  }
+}
