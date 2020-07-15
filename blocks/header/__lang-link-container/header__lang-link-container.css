@@ -1,0 +1,5 @@
+.header__lang-link-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
