@@ -1,8 +1,6 @@
 @import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
 
 /* todo: remove before submiting project */
-div, h1, h2, h3, h4, ul, li, p {
-  border: 1px solid red;
-}
 
-@import url('../blocks/page/page.css');
+
