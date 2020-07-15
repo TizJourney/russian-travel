@@ -11,7 +11,6 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  justify-self: flex-start;
 }
 
 .header__lang-link-container {
@@ -28,7 +27,8 @@
   text-decoration-line: underline;
   color: #fff;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.17;
+  font-weight: normal;
 }
 
 .header__lang-link:visited {
@@ -45,4 +45,15 @@
   .header {
     margin: 16px 16px;
   }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
 }
