@@ -26,7 +26,18 @@
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__list-item/intro__list-item.css');
 
+.content__photo-grid {
+  margin: 92px 48px 0 48px;
 
-.photo-grid {}
+}
 
-.content__photo-grid {}
+.photo-grid {
+  display: grid;
+  grid-gap: 14px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.photo-grid__item {
+  width: 100%;
+  object-fit: contain;
+}
