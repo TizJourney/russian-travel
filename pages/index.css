@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 768px) {
   .content__intro {
-    margin: 24px 88px 0 88px;
+    margin: 88px 24px 0 24px;
   }
 }
 
@@ -72,3 +72,12 @@
     align-self: start;
   }
 }
+
+/* .intro */
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: auto;
+  }
+}
+
