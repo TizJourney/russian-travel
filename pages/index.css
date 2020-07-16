@@ -15,3 +15,60 @@
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
+.content__intro {
+  margin: 90px 148px 0 148px;
+  align-self: start;
+}
+
+.intro {
+  width: 690px;
+}
+
+.intro__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+}
+
+.intro__text {
+  margin: 40px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.intro__list {
+  margin: 32px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.intro__list-item {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* .content__intro */
+
+@media screen and (max-width: 1024px) {
+  .content__intro {
+    margin: 92px 48px 0 48px;
+    align-self: start;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .content__intro {
+    margin: 24px 88px 0 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__intro {
+    margin: 64px 16px 0 16px;
+    align-self: start;
+  }
+}
