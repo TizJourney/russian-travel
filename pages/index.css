@@ -53,6 +53,12 @@
   height: 0;
   padding-bottom: 57.8%;
   position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover:hover {
+  opacity: 0.7;
 }
 
 .cover__title {
@@ -61,6 +67,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
+  color: #fff;
+  text-decoration: none;
   text-align: center;
   z-index: 1;
 }
@@ -73,8 +81,10 @@
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
+  text-decoration: none;
   z-index: 1;
 }
+
 
 .cover__overlay {
   position: absolute;
@@ -86,7 +96,7 @@
   opacity: 0.3;
 }
 
-/* .cover__title */
+
 
 @media screen and (max-width: 1024px) {
   .cover__title {
