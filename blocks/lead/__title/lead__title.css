@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    width: calc(100% - 48px);
+    margin: 0 24px;
+    width: unset;
   }
 }
 
 @media screen and (max-width: 640px) {
   .lead__title {
     margin: 0 16px;
-    width: auto;
     font-size: 40px;
     line-height: 1.1;
   }

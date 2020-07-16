@@ -33,8 +33,6 @@
   margin: 92px 148px 0 148px;
 }
 
-.places {}
-
 .places__place + .places__place
 {
   margin-top: 80px;
@@ -42,7 +40,7 @@
 
 .place-card {
   display: grid;
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   grid-template-columns: 460px auto;
 }
 
@@ -105,6 +103,7 @@
 }
 
 /* content__places */
+
 @media screen and (max-width: 1024px) {
   .content__places {
     margin: 92px 48px 0 48px;
@@ -117,9 +116,83 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .content__places {
     margin: 64px 0 0 0;
+  }
+}
+
+/* places  */
+
+@media screen and (max-width: 768px) {
+  .places__place + .places__place
+  {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place + .places__place
+  {
+    margin-top: 48px;
+  }
+}
+
+/* .place-card */
+@media screen and (max-width: 1024px) {
+  .place-card {
+    gap: 48px 32px;
+    grid-template-columns: 440px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place-card {
+    gap: 48px 28px;
+    grid-template-columns: 320px auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .place-card {
+    grid-template-columns: 1fr;
+    gap:32px;
+  }
+}
+
+/* card__paragaph */
+@media screen and (max-width: 640px) {
+.place-card__paragaph {
+    margin: 0 16px;
+    font-size: 18px;
+    line-height: 1.62;
+
+  }
+}
+
+/* card__website */
+
+@media screen and (max-width: 640px) {
+  .place-card__website {
+    display: none;
+  }
+}
+
+/* card__title */
+
+@media screen and (max-width: 768px) {
+  .place-card__title {
+    margin: 0 16px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .place-card__title {
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 1.09;
   }
 }
 
