@@ -1,0 +1,10 @@
+.footer__link-item + .footer__link-item {
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__link-item + .footer__link-item {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}

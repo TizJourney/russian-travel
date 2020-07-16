@@ -8,6 +8,7 @@
 @import url('../blocks/content/__photo-grid/content__photo-grid.css');
 @import url('../blocks/content/__places/content__places.css');
 @import url('../blocks/content/__cover/content__cover.css');
+@import url('../blocks/content/__footer/content__footer.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-link-container/header__lang-link-container.css');
@@ -45,100 +46,7 @@
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 
-.content__footer {
-  margin: 92px 48px 24px 48px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__link-container {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.footer__links {
-}
-
-.footer__link {
-  color: #fff;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-.footer__link-item {}
-
-.footer__link-item + .footer__link-item {
-  margin-left: 18px;
-}
-
-.footer__link:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.footer__copyright {
-  margin: 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-/* .content__footer */
-@media screen and (max-width: 768px) {
-  .content__footer {
-    margin: 88px 24px 24px 24px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .content__footer {
-    margin: 64px 16px 24px 16px;
-  }
-}
-
-/* .footer__link-container */
-@media screen and (max-width: 640px) {
-  .footer__link-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-/* footer__link-item */
-@media screen and (max-width: 640px) {
-  .footer__link-item + .footer__link-item {
-    margin-left: 0;
-    margin-top: 32px;
-  }
-}
-
-/* footer */
-@media screen and (max-width: 640px) {
-  .footer {
-    flex-direction: column;
-    justify-content: start;
-  }
-}
-
-/* footer__copyright */
-@media screen and (max-width: 640px) {
-  .footer__copyright {
-    margin-top: 48px;
-  }
-}
-
-/* footer__link */
-@media screen and (max-width: 640px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 1;
-  }
-}
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__link-container/footer__link-container.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__link-item/footer__link-item.css');
