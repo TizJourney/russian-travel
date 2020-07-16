@@ -104,5 +104,22 @@
   line-height: 1.67;
 }
 
+/* content__places */
+@media screen and (max-width: 1024px) {
+  .content__places {
+    margin: 92px 48px 0 48px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .content__places {
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__places {
+    margin: 64px 0 0 0;
+  }
+}
 
