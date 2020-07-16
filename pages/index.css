@@ -40,10 +40,11 @@
 @import url('../blocks/place-card/__paragaph/place-card__paragaph.css');
 
 .content__cover {
-  margin: 0 auto;
+  margin-top: 92px;
 }
 
 .cover {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +52,7 @@
   background-size: cover;
   width: min(100%, 1184px);
   height: 0;
-  padding-bottom: 57.8%;
+  padding-bottom: 60%;
   position: relative;
   color: #fff;
   text-decoration: none;
@@ -96,8 +97,7 @@
   opacity: 0.3;
 }
 
-
-
+/* cover__title */
 @media screen and (max-width: 1024px) {
   .cover__title {
     margin-top: 195px;
@@ -126,5 +126,19 @@
     width: unset;
     font-size: 14px;
     line-height: 1.14;
+  }
+}
+
+/*.content__cover */
+
+@media screen and (max-width: 768px) {
+  .content__cover {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content__cover {
+    margin-top: 64px;
   }
 }
