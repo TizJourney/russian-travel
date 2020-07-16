@@ -1,0 +1,27 @@
+.content__intro {
+  margin: 90px 148px 0 148px;
+  align-self: start;
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .content__intro {
+      margin: 92px 48px 0 48px;
+      align-self: start;
+    }
+    }
+
+  @media screen and (max-width: 768px) {
+    .content__intro {
+      margin: 88px 24px 0 24px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .content__intro {
+      margin: 64px 16px 0 16px;
+      align-self: start;
+    }
+  }
+
+
