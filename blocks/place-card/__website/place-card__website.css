@@ -16,6 +16,7 @@
   top: calc(-12px - 50%);
   left: 0;
   text-decoration: none;
+  transition: opacity 0.5s;
 }
 
 .place-card__website:hover {

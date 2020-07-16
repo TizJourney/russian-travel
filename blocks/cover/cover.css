@@ -11,6 +11,7 @@
   position: relative;
   color: #fff;
   text-decoration: none;
+  transition: opacity 1.0s;
 }
 
 .cover:hover {

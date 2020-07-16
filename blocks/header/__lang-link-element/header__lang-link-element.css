@@ -1,4 +1,9 @@
 .header__lang-link-element + .header__lang-link-element {
   margin-left: 18px;
+  transition: opacity 0.5s ease-in;
 }
 
+.header__lang-link-element:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
