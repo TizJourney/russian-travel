@@ -35,7 +35,10 @@
 
 .places {}
 
-.places__place {}
+.places__place + .places__place
+{
+  margin-top: 80px;
+}
 
 .place-card {
   display: grid;
