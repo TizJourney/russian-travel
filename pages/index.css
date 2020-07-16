@@ -1,4 +1,4 @@
-  @import url('../vendor/normalize.css');
+@import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-link-container/header__lang-link-container.css');
@@ -6,123 +6,12 @@
 @import url('../blocks/header/__lang-link-element/header__lang-link-element.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
-
-.content {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.content__header {
-  margin: 28px 48px 0 48px;
-}
-
-.content__lead {
-  margin: 0 148px 0px;
-}
-
-.lead {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.lead__title {
-  margin: 0;
-  width: 720px;
-
-  text-align: center;
-
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 1.04;
-}
-
-.lead__subtitle {
-  margin: 32px 0 0 0;
-  width: 640px;
-
-  text-align: center;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 1.2;
-}
-
-.lead__image {
-  width: 100%;
-  object-fit: contain;
-}
-
-.lead__caption {
-  align-self: flex-start;
-  margin: 8px 0 0 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-/* content */
-
-@media screen and (max-width: 768px) {
-  .content__header {
-    margin: 28px 24px 0 24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .content__header {
-    margin: 16px 16px 0 16px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .content__lead {
-    margin: 48px 48px 0 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .content__lead {
-    margin: 48px 0 0 0;
-  }
-}
-
-/* .lead__title */
-
-@media screen and (max-width: 768px) {
-  .lead__title {
-    width: calc(100% - 48px);
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .lead__title {
-    margin: 0 16px;
-    width: auto;
-    font-size: 40px;
-    line-height: 1.1;
-  }
-}
-
-/* .lead__subtitle */
-@media screen and (max-width: 672px) {
-  .lead__subtitle {
-    margin: 16px 16px 0 16px;
-    width: auto;
-
-    font-size: 16px;
-    line-height: 1.25;
-  }
-  }
-
-
-
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__header/content__header.css');
+@import url('../blocks/content/__lead/content__lead.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
 
