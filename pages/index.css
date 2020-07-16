@@ -86,3 +86,35 @@
   opacity: 0.3;
 }
 
+/* .cover__title */
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cover__title {
+    margin: 33px 16px 0 16px;
+    width: unset;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+/* .cover__subtitle */
+@media screen and (max-width: 640px) {
+  .cover__subtitle {
+    margin: 16px 16px 0 16px;
+    width: unset;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
