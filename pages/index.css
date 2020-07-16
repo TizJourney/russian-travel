@@ -29,8 +29,78 @@
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
-.content__places {}
+.content__places {
+  margin: 92px 148px 0 148px;
+}
 
 .places {}
+
+.places__place {}
+
+.place-card {
+  display: grid;
+  grid-gap: 48px 40px;
+  grid-template-columns: 460px auto;
+}
+
+.place-card__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.place-card__image{
+  width: 100%;
+  object-fit: contain;
+}
+
+.place-card__website {
+  align-self: end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+  position: relative;
+}
+
+.place-card__website:after {
+  content: 'url';
+  color: #AAAAAA;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  text-decoration: none;
+
+}
+
+.place-card__website:hover {
+  opacity: 0.8;
+}
+
+.place-card__website:visited {
+  color: #fff;
+}
+
+.place-card__paragaph-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.place-card__paragaph + .place-card__paragaph {
+  margin-top: 24px;
+}
+
+.place-card__paragaph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
 
 
