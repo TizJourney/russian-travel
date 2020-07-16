@@ -68,12 +68,11 @@
 
 .place-card__website:after {
   content: 'url';
-  color: #AAAAAA;
+  color: #aaa;
   position: absolute;
   top: calc(-12px - 50%);
   left: 0;
   text-decoration: none;
-
 }
 
 .place-card__website:hover {
