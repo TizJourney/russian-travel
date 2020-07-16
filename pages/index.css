@@ -54,6 +54,8 @@
 }
 
 .lead__image {
+  width: 100%;
+  object-fit: contain;
 
 }
 
@@ -89,7 +91,7 @@
 
 /* .lead__title */
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     width: calc(100% - 48px);
   }
