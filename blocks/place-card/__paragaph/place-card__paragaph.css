@@ -1,0 +1,20 @@
+.place-card__paragaph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.place-card__paragaph + .place-card__paragaph {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 640px) {
+.place-card__paragaph {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}

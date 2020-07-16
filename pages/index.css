@@ -6,6 +6,7 @@
 @import url('../blocks/content/__lead/content__lead.css');
 @import url('../blocks/content/__intro/content__intro.css');
 @import url('../blocks/content/__photo-grid/content__photo-grid.css');
+@import url('../blocks/content/__places/content__places.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-link-container/header__lang-link-container.css');
@@ -29,170 +30,11 @@
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
-.content__places {
-  margin: 92px 148px 0 148px;
-}
+@import url('../blocks/places/__place/places__place.css');
 
-.places__place + .places__place
-{
-  margin-top: 80px;
-}
-
-.place-card {
-  display: grid;
-  gap: 48px 40px;
-  grid-template-columns: 460px auto;
-}
-
-.place-card__title {
-  margin: 0;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-}
-
-.place-card__image{
-  width: 100%;
-  object-fit: contain;
-}
-
-.place-card__website {
-  align-self: end;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.22;
-  text-decoration: underline;
-  color: #fff;
-  position: relative;
-}
-
-.place-card__website:after {
-  content: 'url';
-  color: #aaa;
-  position: absolute;
-  top: calc(-12px - 50%);
-  left: 0;
-  text-decoration: none;
-}
-
-.place-card__website:hover {
-  opacity: 0.8;
-}
-
-.place-card__website:visited {
-  color: #fff;
-}
-
-.place-card__paragaph-container {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.place-card__paragaph + .place-card__paragaph {
-  margin-top: 24px;
-}
-
-.place-card__paragaph {
-  margin: 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.67;
-}
-
-/* content__places */
-
-@media screen and (max-width: 1024px) {
-  .content__places {
-    margin: 92px 48px 0 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .content__places {
-    margin: 88px 24px 0 24px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .content__places {
-    margin: 64px 0 0 0;
-  }
-}
-
-/* places  */
-
-@media screen and (max-width: 768px) {
-  .places__place + .places__place
-  {
-    margin-top: 72px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__place + .places__place
-  {
-    margin-top: 48px;
-  }
-}
-
-/* .place-card */
-@media screen and (max-width: 1024px) {
-  .place-card {
-    gap: 48px 32px;
-    grid-template-columns: 440px auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place-card {
-    gap: 48px 28px;
-    grid-template-columns: 320px auto;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .place-card {
-    grid-template-columns: 1fr;
-    gap:32px;
-  }
-}
-
-/* card__paragaph */
-@media screen and (max-width: 640px) {
-.place-card__paragaph {
-    margin: 0 16px;
-    font-size: 18px;
-    line-height: 1.62;
-
-  }
-}
-
-/* card__website */
-
-@media screen and (max-width: 640px) {
-  .place-card__website {
-    display: none;
-  }
-}
-
-/* card__title */
-
-@media screen and (max-width: 768px) {
-  .place-card__title {
-    margin: 0 16px;
-    font-size: 42px;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .place-card__title {
-    margin: 0 16px;
-    font-size: 32px;
-    line-height: 1.09;
-  }
-}
-
+@import url('../blocks/place-card/place-card.css');
+@import url('../blocks/place-card/__title/place-card__title.css');
+@import url('../blocks/place-card/__image/place-card__image.css');
+@import url('../blocks/place-card/__website/place-card__website.css');
+@import url('../blocks/place-card/__paragaph-container/place-card__paragaph-container.css');
+@import url('../blocks/place-card/__paragaph/place-card__paragaph.css');

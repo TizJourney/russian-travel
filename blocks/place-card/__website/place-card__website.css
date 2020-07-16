@@ -1,0 +1,33 @@
+.place-card__website {
+  align-self: end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+  position: relative;
+}
+
+.place-card__website:after {
+  content: 'url';
+  color: #aaa;
+  position: absolute;
+  top: calc(-12px - 50%);
+  left: 0;
+  text-decoration: none;
+}
+
+.place-card__website:hover {
+  opacity: 0.8;
+}
+
+.place-card__website:visited {
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .place-card__website {
+    display: none;
+  }
+}
