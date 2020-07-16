@@ -45,16 +45,13 @@
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 
-.content__footer {}
+.content__footer {
+  margin: 92px 48px 24px 48px;
+}
 
 .footer {
   display: flex;
   justify-content: space-between;
-}
-
-
-.footer__link {
-
 }
 
 .footer__link-container {
@@ -65,12 +62,31 @@
   align-items: center;
 }
 
-
 .footer__links {
+}
 
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
 
+.footer__link-item {}
+
+.footer__link-item + .footer__link-item {
+  margin-left: 18px;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .footer__copyright {
   margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
 }
