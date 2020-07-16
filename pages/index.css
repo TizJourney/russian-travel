@@ -44,3 +44,33 @@
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
+
+.content__footer {}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__link {
+
+}
+
+.footer__link-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer__links {
+
+
+}
+
+.footer__copyright {
+  margin: 0;
+}
