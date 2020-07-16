@@ -38,3 +38,48 @@
 @import url('../blocks/place-card/__website/place-card__website.css');
 @import url('../blocks/place-card/__paragaph-container/place-card__paragaph-container.css');
 @import url('../blocks/place-card/__paragaph/place-card__paragaph.css');
+
+.content__cover {
+  max-width: 1184;
+  margin: 0 auto;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-bottom: 66%;
+  position: relative;
+}
+
+.cover__title {
+  margin: 245px 0 0 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+}
+
+.cover__subtitle {
+  margin: 32px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.cover__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
