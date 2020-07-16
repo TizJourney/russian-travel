@@ -20,6 +20,7 @@
 
 .place-card__website:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .place-card__website:visited {
