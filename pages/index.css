@@ -27,7 +27,6 @@
 
 .content__photo-grid {
   margin: 92px 48px 0 48px;
-
 }
 
 .photo-grid {
@@ -63,3 +62,18 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* .content__photo-grid */
+
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__photo-grid {
+    margin: 64px 16px 0 16px;
+  }
+}
+
