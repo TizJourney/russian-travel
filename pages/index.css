@@ -70,7 +70,7 @@
   content: 'url';
   color: #AAAAAA;
   position: absolute;
-  top: -12px;
+  top: calc(-12px - 50%);
   left: 0;
   text-decoration: none;
 
