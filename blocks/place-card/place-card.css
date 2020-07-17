@@ -14,7 +14,7 @@
 @media screen and (max-width: 768px) {
   .place-card {
     gap: 48px 28px;
-    grid-template-columns: 320px auto;
+    grid-template-columns: 340px auto;
   }
 }
 

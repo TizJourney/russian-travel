@@ -14,10 +14,8 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 .place-card__paragaph {
-    margin-left: 16px;
-    margin-right: 16px;
     font-size: 16px;
     line-height: 1.62;
   }
