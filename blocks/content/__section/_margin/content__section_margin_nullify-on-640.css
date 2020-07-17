@@ -1,0 +1,6 @@
+@media screen and (max-width: 640px) {
+  .content__section_margin_nullify-on-640 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

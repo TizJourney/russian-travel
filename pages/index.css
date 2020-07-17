@@ -4,12 +4,13 @@
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/content/content.css');
+@import url('../blocks/content/__section/content__section.css');
+@import url('../blocks/content/__section/_margin/content__section_margin_big.css');
+@import url('../blocks/content/__section/_margin/content__section_margin_small.css');
+@import url('../blocks/content/__section/_margin/content__section_margin_nullify-on-640.css');
+
 @import url('../blocks/content/__header/content__header.css');
 @import url('../blocks/content/__lead/content__lead.css');
-@import url('../blocks/content/__intro/content__intro.css');
-@import url('../blocks/content/__photo-grid/content__photo-grid.css');
-@import url('../blocks/content/__places/content__places.css');
-@import url('../blocks/content/__cover/content__cover.css');
 @import url('../blocks/content/__footer/content__footer.css');
 
 @import url('../blocks/header/header.css');
@@ -22,6 +23,7 @@
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__figure/lead__figure.css');
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
@@ -49,41 +51,10 @@
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__background-image/cover__background-image.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__link-container/footer__link-container.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__link-item/footer__link-item.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-.lead__figure  {
-  margin: 0;
-}
-
-.cover__background-image {
-  /* background-image: url('../../images/cover.jpg'); */
-  background-image: url('../images/cover.jpg');
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.cover__background-image:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2a2c2f;
-  opacity: 0.3;
-}
-
-.cover:hover .cover__background-image:after{
-  opacity: 0.7;
-}

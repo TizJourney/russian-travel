@@ -1,0 +1,19 @@
+.content__section_margin_small {
+  /* 48px -> 24px ->16px */
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .content__section_margin_small {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content__section_margin_small {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
