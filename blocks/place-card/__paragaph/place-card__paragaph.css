@@ -6,8 +6,12 @@
   line-height: 1.67;
 }
 
-.place-card__paragaph + .place-card__paragaph {
+.place-card__paragaph {
   margin-top: 24px;
+}
+
+.place-card__paragaph:first-child {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 640px) {
