@@ -4,10 +4,9 @@
   flex-direction: column;
   align-items: center;
   background-image: url('../../images/cover.jpg');
-  background-size: cover;
+  background-size: auto, auto;
+  background-position: center;
   width: min(100%, 1184px);
-  height: 0;
-  padding-bottom: 60%;
   position: relative;
   color: #fff;
   text-decoration: none;
