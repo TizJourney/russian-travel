@@ -7,3 +7,9 @@
   font-size: 12px;
   letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 640px) {
+  .place-card__url-tag {
+    display: none;
+  }
+}
