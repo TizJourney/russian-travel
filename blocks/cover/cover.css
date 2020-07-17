@@ -3,29 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../../images/cover.jpg');
-  background-size: cover;
-  background-position: center;
   width: min(100%, 1184px);
   min-height: calc(min(100vw, 1184px) * 0.625);
   position: relative;
   color: #fff;
   text-decoration: none;
   transition: opacity 1.0s;
-}
-
-.cover:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2a2c2f;
-  opacity: 0.3;
-}
-
-.cover:hover {
-  opacity: 0.7;
 }
