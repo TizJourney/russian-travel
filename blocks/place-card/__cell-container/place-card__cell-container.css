@@ -1,4 +1,4 @@
-.place-card__paragaph-container {
+.place-card__cell-container {
   display: flex;
   flex-direction: column;
 }

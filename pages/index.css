@@ -39,7 +39,7 @@
 @import url('../blocks/place-card/__title/place-card__title.css');
 @import url('../blocks/place-card/__image/place-card__image.css');
 @import url('../blocks/place-card/__website/place-card__website.css');
-@import url('../blocks/place-card/__paragaph-container/place-card__paragaph-container.css');
+@import url('../blocks/place-card/__cell-container/place-card__cell-container.css');
 @import url('../blocks/place-card/__paragaph/place-card__paragaph.css');
 
 @import url('../blocks/cover/cover.css');
@@ -51,3 +51,18 @@
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__link-item/footer__link-item.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+
+
+.place-card__url-tag {
+  margin: 0;
+  color:#aaa;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+.place-card__cell-container_align_bottom {
+  justify-content: flex-end;
+}
