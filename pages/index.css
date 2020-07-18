@@ -7,7 +7,7 @@
 @import url('../blocks/content/__section/content__section.css');
 @import url('../blocks/content/__section/_margin/content__section_margin_big.css');
 @import url('../blocks/content/__section/_margin/content__section_margin_small.css');
-@import url('../blocks/content/__section/_margin/content__section_margin_nullify-on-640.css');
+@import url('../blocks/content/__section/_margin/content__section_margin_nullify-on-small-screens.css');
 
 @import url('../blocks/content/__header/content__header.css');
 @import url('../blocks/content/__lead/content__lead.css');
